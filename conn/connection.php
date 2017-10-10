@@ -1,7 +1,7 @@
 <?php
 
 
-rror_reporting(E_ALL ^ E_DEPRECATED);
+error_reporting(E_ALL ^ E_DEPRECATED);
 $con = mysql_connect("localhost","root","root");
 
 if (!$con) {
