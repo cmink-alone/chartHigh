@@ -1,6 +1,7 @@
 <?php
+
 /**
- *
+*
  *
  * @link          https://github.com/mzm-dev 
  * @demo          http://highcharts-mzm.rhcloud.com
@@ -19,7 +20,6 @@ $cakeDescription = "Highcharts Pie Chart";
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function() {
-              
                 var options = {
                     chart: {
                         renderTo: 'container',
@@ -29,7 +29,6 @@ $cakeDescription = "Highcharts Pie Chart";
                             alpha: 45,
                             beta: 0
                         }
-
                     },
                     title: {
                         text: 'Browser market shares at a specific website, 2014'
@@ -50,7 +49,6 @@ $cakeDescription = "Highcharts Pie Chart";
                     },
                     series: []
                 };
-
                 $.getJSON("data/data-pertahun.php", function(json) {
                     options.series = json;
                     chart = new Highcharts.Chart(options);
@@ -62,7 +60,7 @@ $cakeDescription = "Highcharts Pie Chart";
         <script src="http://code.highcharts.com/modules/exporting.js"></script>
     </head>
     <body>
-        <a class="link_header" href="/highcharts/">&lt;&lt; Back to index</a>        
+        <a class="link_header" href="/hightchart/">&lt;&lt; Back to index</a>        
         <div id="container" style="min-width: 320px; height: 400px; margin: 0 auto"></div>
     </body>
 </html>

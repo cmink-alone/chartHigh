@@ -1,6 +1,7 @@
 <?php
+
 /**
- *
+*
  *
  * @link          https://github.com/mzm-dev 
  * @demo          http://highcharts-mzm.rhcloud.com
@@ -21,12 +22,10 @@ $cakeDescription = "Highcharts Pie Chart";
             $(document).ready(function() {
                 //default
                 getAjaxData('2013');
-
                 $('#tahun').change(function() {
                     var id = $('#tahun').val();
                     getAjaxData(id);
                 });
-
                 var options = {
                     chart: {
                         renderTo: 'container',
@@ -85,15 +84,13 @@ $cakeDescription = "Highcharts Pie Chart";
                         chart = new Highcharts.Chart(options);
                     });
                 }
-
             });
         </script>
         <script src="http://code.highcharts.com/highcharts.js"></script>
         <script src="http://code.highcharts.com/modules/exporting.js"></script>
-        
     </head>
     <body>
-        <a class="link_header" href="/highcharts/">&lt;&lt; Back to index</a>
+        <a class="link_header" href="/hightchart/">&lt;&lt; Back to index</a>
         <div class="menu_top" >
             <select id="tahun">
                 <option value="">Pilih</option>

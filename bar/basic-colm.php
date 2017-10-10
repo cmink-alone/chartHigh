@@ -1,6 +1,7 @@
 <?php
+
 /**
- *
+*
  *
  * @link          https://github.com/mzm-dev 
  * @demo          http://highcharts-mzm.rhcloud.com
@@ -83,7 +84,7 @@ $cakeDescription = "Highcharts Bar Chart";
         <script src="http://code.highcharts.com/modules/exporting.js"></script>
     </head>
     <body>
-        <a class="link_header" href="/highcharts/">&lt;&lt; Back to index</a>
+        <a class="link_header" href="/hightchart/">&lt;&lt; Back to index</a>
         <div id="container" style="min-width: 400px; height: 400px; margin: 0 auto"></div>
     </body>
 </html>

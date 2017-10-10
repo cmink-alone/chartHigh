@@ -14,7 +14,7 @@ Setup
     
  The SQL Script: load sql file [db_highcharts.sql](https://github.com/pesima/highcharts/blob/master/db_highcharts.sql).
  3. Copy  [highcharts project](https://github.com/pesima/highcharts/archive/master.zip). to your local webroot
- 4. run http://localhost/highcharts
+ 4. run http://localhost/hightchart
  
 Reference
 =========
